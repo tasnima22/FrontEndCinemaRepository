@@ -1,1 +1,1 @@
-# FrontEndCinemaRepository
+# FrontEndCinemaProject
