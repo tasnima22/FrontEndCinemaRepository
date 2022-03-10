@@ -1,0 +1,22 @@
+form {
+    
+    text-align: left;
+    color:blue;
+    background-color: white;
+    
+}
+
+body{
+    background-color:beige;
+}
+
+.test{
+    text-align: center;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.test1{
+    color: black;
+}
+
