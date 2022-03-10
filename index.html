@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+
+        <meta charset="UTF-8">
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Home Page</title>
+    
+        
+    
+    </head>
+
+    <body>
+        <h2>Cinema Database</h2>
+
+        <!-- <div id="cinema1">
+            
+        </div>
+
+        <div id="cinema-info">
+            
+        </div> -->
+
+
+            <h4>Add new cinema information</h4>
+
+      
+    
+        
+            <!-- <form id="create-cinema">
+                <fieldset>
+                    <br>Cinema:<br><input type = "text"><br>
+                    <br>Film:<br><input type = "text"><br>
+                    <br>Cost:<br><input type = "text"><br>
+                </fieldset>
+                <input type="submit" name="">
+            </form> -->
+            
+    <div>
+
+
+            <h3> Add Cinema Information</h3>
+    <form onsubmit="createFilm(e);">
+        <br>Cinema:<br><input type="text" id="cinema">
+        <br>Film:<br><input type="text" id="film">
+        <br>Cost:<br><input type="text" id="cost">
+        <button type="submit" id="submitBtn">submit</button>
+        <button type="reset" value="Reset" class="btn btn-secondary" id="clearFormBtn">Clear</button>
+   
+    </form>
+    </div>
+
+    <div>
+        <h3>Edit Cinema Information</h3>
+        <form>
+            <br>ID:<br><input type="text" id="editID">
+            <br>Cinema:<br><input type="text" id="editCinema">
+            <br>Film:<br><input type="text" id="editFilm">
+            <br>Cost:<br><input type="text" id="editCost">
+            <input type ="button" value="Edit" onclick="editCinemaInfo()">
+            <button type="reset" value="Reset" class="btn btn-secondary" id="clearFormBtn">Clear</button>
+        </form>
+    </div>
+
+    <div>
+        <h3>Read from Cinema Information</h3>
+        <form>
+            <p>Click on Read to view Cinema Information</p>
+            <input type="button" value="Read" onclick="Read()">
+        </form>
+    </div>
+
+    <div>
+        <form>
+        <h3>Delete from Cinema Information</h3>
+        <br><input type="text" name="deleteByID" id="deleteByID">
+        <br><input type="button" value="Delete" onclick="DeletebyID()">
+        <button type="button" class="btn btn-secondary" id="clearFilterBtn">Clear</button><br><br>
+        </form>
+    </div>
+
+   <h2>Cinema list:</h2>
+   <div id="getAllOutput" class="row row-cols-3"></div>
+    <script type="text/javascript" src="cinema1.js"></script>
+            
+</body>
+        
+
+
+       
+</html>
