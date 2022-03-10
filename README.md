@@ -123,7 +123,7 @@ This image shows the 95% coverage obtained
 
 HTML, CSS and JavaScript were used to create the Front-End of this project. 
 
-![image](https://user-images.githubusercontent.com/64172539/157771775-2e5febde-39bf-4646-838b-d5166d179cd9.png)
+![image](https://user-images.githubusercontent.com/64172539/157773875-cb754db9-e5ce-4795-81f5-e93b122d0e43.png)
 
 This allows for data to be added to the cinema database, edited and deleted by ID. Everytime data is submitted to the database, the data is stored in MySQL and can also be viewed by clicking the refresh button to view it on the table at the bottom of the page. 
 
