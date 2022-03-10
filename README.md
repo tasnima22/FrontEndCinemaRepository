@@ -4,7 +4,7 @@ Coverage: 95%
 
 **Introduction**
 
-The objective of this project is to create a CRUD application with the utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training. The technological tools used for creating this IMS project were:
+The objective of this project was to create a CRUD application with the utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training. The technological tools used for creating this IMS project were:
 
 •	Version Control System: Git
 
